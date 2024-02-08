@@ -19,7 +19,7 @@ env:
  AWS_REGION: us-east-2
  EKS_CLUSTER: gitops-project
 
- jobs:
+jobs:
   terraform:
    name: "apply terraform code changes"
    runs-on: ubuntu-latest
